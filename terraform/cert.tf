@@ -50,7 +50,7 @@ resource "aws_route53_record" "tooling" {
 }
 
 
-# create records for wordpress
+# create records for wordpresss
 resource "aws_route53_record" "wordpress" {
   zone_id = data.aws_route53_zone.dentitoxprogold.zone_id
   name    = "wordpress.dentitoxprogold.us"
